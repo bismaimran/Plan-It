@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plan It</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="#"><b>Plan It</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="text-center font-theme">
+        <h2 style="text-align:center;font-size:40px; color:#331766; padding-top: 1rem
+    ;">
+            Task Planner
+        </h2>
+    </div>
+
+    <!--TASK BAR -->
+    <div class="container2 d-flex flex-row justify-content" style="margin: auto;">
+        <div class="p-2">
+            <div class="container-taskbar ">
+                Task Performance
+            </div>
+            <div class="d-flex flex-row justify-content-between " style=" width: 200px; margin: auto;">
+                <div class="p-2">1/1/2021</div>
+                <div class="p-2" >4/1/2021</div>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="container-taskbar" style="background:#F299F2BF;">
+                Task 1
+            </div>
+            <div class="d-flex flex-row justify-content-between" style="width: 200px;margin: auto;">
+                <div class="p-2">1/1/2021</div>
+                <div class="p-2">4/1/2021</div>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="container-taskbar" style="background: #41C357CF  ;">
+                Task 1
+            </div>
+            <div class="d-flex flex-row justify-content-between" style="width: 200px;margin: auto; ">
+                <div class="p-2">1/1/2021</div>
+                <div class="p-2">4/1/2021</div>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="container-taskbar" style="background: #FFBF66DE;">
+                Task 1
+            </div>
+            <div class="d-flex flex-row justify-content-between" style="width: 200px; margin: auto; ">
+                <div class="p-2">1/1/2021</div>
+                <div class="p-2">4/1/2021</div>
+            </div>
+        </div>
+         
+    </div>
+
+    <!-- MAIN BODY WITH TASKS AND CHART -->
+
+    <div class= "d-flex" style="padding-top: 4rem;">
+        <!-- TASKS -->
+        <div class="p-2">  
+            <div class="card" style="width:500px;height: 180px;left: 4rem; border-radius: 20;background: linear-gradient(180deg, #3ED6BF 0%, rgba(62, 214, 191, 0.8) 100%);" >
+                <div class="card-body">
+                    <div class= "d-flex felx-row justify-content-between">
+                        <h5 class="card-title p-2">Task Performance Bleh</h5>
+                        <h6 class="p-2" >1/1/2022</h6>
+                        <h6 class= "p-2" style="color: rgb(255, 255, 255);">1:00AM</h6>
+                    </div>
+            
+                    <h5 class="card-subtitle ml-3" style="color: rgb(255, 255, 255); font-size: 16px;">Create Frontend</h5>
+                    <hr>
+                    <div class="btn-group"role="group" aria-label="Basic example" >
+                        <button type="submit" class="btn btn-secondary" style="background: #19524b; ">Done</button>
+                        
+                        <button type="submit" class="btn btn-secondary" style="background: #19524b; ">Edit</button>
+                        <button type="submit" class="btn btn-secondary" style="background: #19524b; ">Delete</button>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="card"
+                style="width:500px;height: 180px;left: 4rem; border-radius: 20;background: linear-gradient(180deg, #3ED6BF 0%, rgba(62, 214, 191, 0.8) 100%);">
+                <div class="card-body">
+                    <div class="d-flex felx-row justify-content-between">
+                        <h5 class="card-title p-2">Task Performance Bleh</h5>
+                        <h6 class="p-2">1/1/2022</h6>
+                        <h6 class="p-2" style="color: rgb(255, 255, 255);">1:00AM</h6>
+                    </div>
+            
+                    <h5 class="card-subtitle ml-3" style="color: rgb(255, 255, 255); font-size: 16px;">Create Frontend</h5>
+                    <hr>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary" style="background: #19524b; ">Done</button>
+                        <button type="button" class="btn btn-secondary" style="background: #19524b; ">Missed</button>
+                    </div>
+            
+                </div>
+            </div>
+            <br>
+            <div class="card"
+                style="width:500px;height: 180px;left: 4rem; border-radius: 20;background: linear-gradient(180deg, #3ED6BF 0%, rgba(62, 214, 191, 0.8) 100%);">
+                <div class="card-body">
+                    <div class="d-flex felx-row justify-content-between">
+                        <h5 class="card-title p-2">Task Performance Bleh</h5>
+                        <h6 class="p-2">1/1/2022</h6>
+                        <h6 class="p-2" style="color: rgb(255, 255, 255);">1:00AM</h6>
+                    </div>
+            
+                    <h5 class="card-subtitle ml-3" style="color: rgb(255, 255, 255); font-size: 16px;">Create Frontend</h5>
+                    <hr>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary" style="background: #19524b; ">Done</button>
+                        <button type="button" class="btn btn-secondary" style="background: #19524b; ">Missed</button>
+                    </div>
+            
+                </div>
+            </div>
+            
+        </div>
+    
+    
+    <!-- PIE CHART -->
+        <div class="chart p-2">
+            <h1>Pie chart View</h1>
+    
+            <div id="piechart"></div>
+        </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 8],
+                ['Eat', 2],
+                ['TV', 4],
+                ['Gym', 2],
+                ['Sleep', 8]
+            ]);
+
+            // Optional; add a title and set the width and height of the chart
+            var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+
+
+    </script>
+    </div>
+    <br>
+    <!-- ADD BUTTON -->
+    <div class="card mx-auto text-center" style="width: 30rem;background:#F299F2BF; ">
+        <div class="card-body font-theme">
+            Add Task
+            <button type="submit" name="submit" class="view">Login</button>
+        </div>
+    </div>
+    <br>
+
+
+
+</body>
+</html>
